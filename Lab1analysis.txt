@@ -1,0 +1,46 @@
+Part 1
+Runtime for Factorial is : O(n)
+Let n represent the value we are finding the factorial for.
+Let T(n) represent  the # of operation needed to calculate n!
+
+There are 4 operations that are done exactly once
+There are 4 operations the code does each time it goes through the loop
+T(n) = 4n + 4 
+As n gets bigger, then the constant wouldn’t matter. 
+T(n) is O(n)  à use big o of n to describe the function
+
+b.	Runtime for Fibonacci is : O(n)
+Let n represent the Fibonacci # we are trying to find.
+F0 = 0 à first Fibonacci number is 0
+F1 = 1
+Fn = sum of 2 previous Fibonacci numbers; n>1
+F2 = 0+1 =1
+F3 = 1+1 =2
+F4 = 2+1 =3
+T(0) = # of operations needed to find F0.  
+        = 6
+T(n) = 6 * # of times through the loop  + 9
+T(n) = 6(n-1) + 9
+        = 6n – 6 + 9
+                      = 6n +3
+T(n) is O(n)  
+c.	Runtime for Power is: O(n)
+Let n represent the value we are trying to find the power of it.
+Let T(n) represent the # of operations needed to calculate n!
+T(0) = # of operations 
+        = 3
+T(n) = 3 * # of times through the loop  + 3
+T(n) = 3n + 3
+T(n) is O(n)  
+
+
+Part 3:
+
+Runtime for BubleSort is: O(n2)
+Let n represent size of array.
+Let T(n) represent the # of operations needed to sort array using bubble sort. 
+T(n) = (11 * # of times through the loop ) + (4* # of times through the loop )
+T(n) = 11 (n2 – n /2) + 4(n-1) + 4
+T(n) = (11/2) n2 - (3/2) n
+
+
